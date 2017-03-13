@@ -1,0 +1,22 @@
+{
+  "intents" : [
+    
+    {"intent" : "TextIntent",
+     "slots" : [
+       
+       {
+         "name" : "PhoneNumber",
+         "type" : "Phone_Number"
+       },
+       {
+         "name": "message",
+         "type": "Body_Message"
+       }
+     ]
+      
+    
+    },
+    { "intent" : "CallIntent"}
+  ]
+  
+}
