@@ -12,7 +12,7 @@ exports.handler = (event, context) => {
         switch (event.request.type) {
 
             case "LaunchRequest":
-                // Launch Request
+                // Launch request
                 console.log(`LAUNCH REQUEST`)
                 context.succeed(
                     generateResponse(
