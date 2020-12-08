@@ -107,8 +107,8 @@ function authenticate(name, pass, fn) {
     if (!module.parent) console.log('authenticating %s:%s', name, pass);
 
     jsonObject = JSON.stringify({
-        "email": "shilpa.ganapathineedi@homesite.com",
-        "password": "Policy@123"
+        "email": "",
+        "password": ""
     });
 
     var options = {
